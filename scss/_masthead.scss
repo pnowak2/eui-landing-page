@@ -13,14 +13,17 @@ header.masthead {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
-    text-align: center;
+    text-align: left;
     .header-content-inner {
       h1 {
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 0;
-        // text-transform: uppercase;
+      }
+      h2 {
+        font-size: 37px;
+        font-weight: 300;
       }
       hr {
         margin: 30px auto;
@@ -53,8 +56,6 @@ header.masthead {
         p {
           font-size: 18px;
           max-width: 80%;
-          margin-right: auto;
-          margin-left: auto;
         }
       }
     }
