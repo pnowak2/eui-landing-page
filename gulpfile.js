@@ -9,8 +9,8 @@ var pkg = require('./package.json');
 
 // Set the banner content
 var banner = ['/*!\n',
-  ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-  ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
+  ' * eUI - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
+  ' * Copyright 2017-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
   ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
   ' */\n',
   ''
@@ -18,7 +18,7 @@ var banner = ['/*!\n',
 
 // Compiles SCSS files from /scss into /css
 gulp.task('sass', function() {
-  return gulp.src('scss/creative.scss')
+  return gulp.src('scss/eui-landing-page.scss')
     .pipe(sass())
     .pipe(header(banner, {
       pkg: pkg
@@ -31,7 +31,7 @@ gulp.task('sass', function() {
 
 // Minify compiled CSS
 gulp.task('minify-css', ['sass'], function() {
-  return gulp.src('css/creative.css')
+  return gulp.src('css/eui-landing-page.css')
     .pipe(cleanCSS({
       compatibility: 'ie8'
     }))
@@ -46,7 +46,7 @@ gulp.task('minify-css', ['sass'], function() {
 
 // Minify custom JS
 gulp.task('minify-js', function() {
-  return gulp.src('js/creative.js')
+  return gulp.src('js/eui-landing-page.js')
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg

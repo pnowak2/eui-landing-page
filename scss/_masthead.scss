@@ -5,7 +5,8 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url('../img/header.jpg');
+  background: radial-gradient(#81caff, #3095c9);
+  // background-image: url('../img/header.jpg');
   background-position: center;
   @include background-cover;
   .header-content {

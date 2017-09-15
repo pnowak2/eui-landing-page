@@ -1,8 +1,8 @@
 {
-  "title": "Createive",
-  "name": "startbootstrap-creative",
-  "version": "4.0.0-beta",
-  "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+  "title": "eUI Landing Page",
+  "name": "eui-landing-page",
+  "version": "1.0.0-beta",
+  "description": "Landing page for eUI platform",
   "keywords": [
     "css",
     "sass",
@@ -11,19 +11,19 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/creative",
+  "homepage": "http://eui.ecdevops.eu",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-    "email": "feedback@startbootstrap.com"
+    "url": "http://eui.ecdevops.eu",
+    "email": "digit-eui-support@ec.europa.eu"
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "Piotr Nowak",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    "Gregory Roels"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+    "url": "https://github.com/pnowak2/eui-landing-page"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
