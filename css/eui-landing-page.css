@@ -210,6 +210,9 @@ body {
       .masthead p {
         font-size: 18px; } }
 
+.services__cta {
+  margin-top: 60px; }
+
 .service-box {
   max-width: 400px;
   margin: 50px auto 0; }
@@ -218,6 +221,23 @@ body {
       margin: 20px auto 0; } }
   .service-box p {
     margin-bottom: 0; }
+
+#guidelines {
+  background-color: #333 !important;
+  background-image: url("../img/guidelines.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.installation-image {
+  max-width: 80%; }
+  @media (min-width: 576px) {
+    .installation-image {
+      max-width: 419px; } }
+
+#showcase {
+  background-image: url("../img/eui-logo-dimmed.png");
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .portfolio-box {
   position: relative;
@@ -350,7 +370,7 @@ body {
     background-color: white; }
 
 .btn {
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
@@ -358,3 +378,16 @@ body {
 
 .btn-xl {
   padding: 15px 30px; }
+
+.btn-outline-light {
+  font-weight: 400;
+  border: 1px solid white; }
+  .btn-outline-light:hover, .btn-outline-light:active {
+    color: #3095c9 !important;
+    outline: 0;
+    box-shadow: none; }
+  .btn-outline-light:active, .btn-outline-light:focus {
+    outline: 0;
+    box-shadow: none; }
+  .btn-outline-light:focus {
+    color: white; }

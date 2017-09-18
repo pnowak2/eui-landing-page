@@ -1,0 +1,7 @@
+.installation-image {
+  max-width: 80%;
+
+  @media (min-width: 576px) {
+    max-width: 419px;
+  }
+}
