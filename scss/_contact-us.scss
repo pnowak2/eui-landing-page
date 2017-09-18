@@ -1,3 +1,10 @@
 #contact-us {
-  // background-color: black;
+  background-color: $gray-base;
+}
+
+.contact-image {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 10px;
 }
