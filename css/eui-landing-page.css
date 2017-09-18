@@ -23,7 +23,6 @@ hr.light {
 a {
   color: #3095c9;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:focus, a:hover {
     color: #3095c9; }
@@ -69,6 +68,10 @@ section {
   background: #555555;
   text-shadow: none; }
 
+img::-moz-selection {
+  color: white;
+  background: transparent; }
+
 img::selection {
   color: white;
   background: transparent; }
@@ -85,7 +88,6 @@ body {
   background-color: white;
   font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
     font-weight: 700;
@@ -149,23 +151,32 @@ body {
             color: #3095c9; } }
 
 .masthead {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: white;
   padding: 150px 15px 100px;
   background: radial-gradient(#81caff, #3095c9);
   background-position: center;
   text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
   .masthead__content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .masthead__teaser {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2; }
   .masthead__logo {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
     margin-bottom: 30px; }
   .masthead__image {
@@ -194,9 +205,13 @@ body {
       min-height: 600px;
       text-align: left; }
       .masthead__content {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
         order: 2; }
       .masthead__teaser {
         padding-left: 70px;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
         order: 1; }
       .masthead__logo {
         margin-bottom: 0; }
@@ -255,12 +270,12 @@ body {
     color: white;
     background: rgba(48, 149, 201, 0.9);
     -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
     transition: all 0.2s; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
       position: absolute;
       top: 50%;
       width: 100%;
+      -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
       text-align: center; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
@@ -397,9 +412,11 @@ body {
   .btn-outline-light:hover, .btn-outline-light:active {
     color: #3095c9 !important;
     outline: 0;
+    -webkit-box-shadow: none;
     box-shadow: none; }
   .btn-outline-light:active, .btn-outline-light:focus {
     outline: 0;
+    -webkit-box-shadow: none;
     box-shadow: none; }
   .btn-outline-light:focus {
     color: white; }
