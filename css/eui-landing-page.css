@@ -178,7 +178,9 @@ body {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    -webkit-animation: pulse-animation 5s infinite ease-in-out;
+    animation: pulse-animation 5s infinite ease-in-out; }
   .masthead__image {
     display: block;
     width: 120px;
@@ -224,6 +226,28 @@ body {
         font-weight: 300; }
       .masthead p {
         font-size: 18px; } }
+
+@-webkit-keyframes pulse-animation {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1); }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@keyframes pulse-animation {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1); }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); } }
 
 .services__cta {
   margin-top: 60px; }
