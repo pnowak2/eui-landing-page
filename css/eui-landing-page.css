@@ -53,10 +53,13 @@ p {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 100px 0; }
+  padding: 64px 0; }
 
 .section-heading {
   margin-top: 0; }
+
+.spacer-separator {
+  margin-top: 60px; }
 
 footer {
   padding: 16px 0; }
@@ -252,16 +255,13 @@ body {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1); } }
 
-.services__cta {
-  margin-top: 60px; }
-
-.service-box {
+.documentation-box {
   max-width: 400px;
   margin: 50px auto 0; }
   @media (min-width: 992px) {
-    .service-box {
+    .documentation-box {
       margin: 20px auto 0; } }
-  .service-box p {
+  .documentation-box p {
     margin-bottom: 0; }
 
 #guidelines {
@@ -269,6 +269,8 @@ body {
   background-image: url("../img/guidelines.jpg");
   background-position: center;
   background-repeat: no-repeat; }
+  #guidelines p {
+    margin: 0; }
 
 .installation-image {
   max-width: 80%; }
@@ -326,7 +328,11 @@ body {
       font-size: 22px; } }
 
 #contact-us {
-  background-color: #333; }
+  background-color: #333;
+  padding-bottom: 64px; }
+
+.contact-item {
+  margin-bottom: 32px; }
 
 .contact-image {
   width: 100px;
@@ -334,12 +340,12 @@ body {
   border: 3px solid white;
   margin-bottom: 10px; }
 
-.call-to-action {
+.highlights {
   background: black;
   padding: 50px 0; }
-  .call-to-action h2 {
+  .highlights h2 {
     margin: 0 auto 10px; }
-  .call-to-action p {
+  .highlights p {
     margin-bottom: 0; }
 
 #footer {
