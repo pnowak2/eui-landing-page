@@ -58,6 +58,9 @@ section {
 .section-heading {
   margin-top: 0; }
 
+footer {
+  padding: 16px 0; }
+
 ::-moz-selection {
   color: white;
   background: #555555;
@@ -338,6 +341,10 @@ body {
     margin: 0 auto 10px; }
   .call-to-action p {
     margin-bottom: 0; }
+
+#footer {
+  background-color: #292929;
+  font-size: 13px; }
 
 .text-primary {
   color: #3095c9 !important; }
