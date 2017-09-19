@@ -282,6 +282,8 @@ body {
   background-image: url("../img/eui-logo-dimmed.png");
   background-position: center;
   background-repeat: no-repeat; }
+  #showcase p {
+    margin: 0; }
 
 .portfolio-box {
   position: relative;
