@@ -4,7 +4,7 @@
   align-items: center;
   color: white;
   padding: 150px 15px 100px;
-  background: radial-gradient(#81caff, #3095c9);
+  background: radial-gradient(lighten($theme-primary, 25), $theme-primary);
   background-position: center;
   text-align: center;
   @include background-cover;
