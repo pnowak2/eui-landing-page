@@ -344,7 +344,8 @@ body {
 
 #footer {
   background-color: #292929;
-  font-size: 13px; }
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.3); }
 
 .text-primary {
   color: #3095c9 !important; }
